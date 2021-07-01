@@ -24,10 +24,13 @@ body{
 
 
 
-/* _______ COMMON STYLES _______ */
+/* _______ TYPOGRAPHY  _______ */
 h1{
     font-size: 4.25rem;
 
+}
+h2{
+    font-size: 2.25rem;
 }
 
 a{
@@ -36,8 +39,20 @@ a{
     text-transform: capitalize;
 }
 
+.small_p{
+    font-size: .9rem;
+}
+/* _______ END TYPOGRAPHY  _______ */
+
+
+
+/* _______ COMMON STYLES _______ */
 ul{
     list-style: none;
+}
+
+.box{
+    border: tomato 2px solid;
 }
 
 .logo{
@@ -63,6 +78,9 @@ img{
     width: 50%;
     display: inline-block;
 }
+.col_30{
+    width: calc((100% - 80px) / 3);
+}
 
 .align_right{
     text-align: right;
@@ -73,13 +91,14 @@ img{
     margin: auto;
     max-width: 1200px;
 }
+.container_small{
+    width: 60%;
+    margin: auto;
+    max-width: 1000px;
+}
 
 .float{
     float: left;
-}
-
-.small_p{
-    font-size: .9rem;
 }
 /* _______ END COMMON STYLES _______ */
 
@@ -129,7 +148,6 @@ header nav{
 .hero .col_left{
     width: 30%;
 }
-
 .hero .col_right{
     width: 70%;
 }
@@ -144,6 +162,36 @@ header nav{
     margin-top: 2rem;
 }
 /* ------ END HERO SECTION ------ */
+
+
+/* ------ PRICING ------ */
+.pricing{
+    margin-top: 200px;
+}
+
+.pricing h2{
+    margin-bottom: 2rem;
+}
+
+.pricing label{
+    font-size: .9rem;
+}
+
+#f_annuale{
+    margin-left: 20px;
+}
+
+.pricing .col_30{
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    height: 600px;
+}
+
+.pricing .col_center{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* ------ END PRICING ------ */
 
 /* _______ END MAIN _______ */
 
