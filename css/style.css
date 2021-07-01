@@ -27,10 +27,15 @@ body{
 /* _______ TYPOGRAPHY  _______ */
 h1{
     font-size: 4.25rem;
-
 }
 h2{
     font-size: 2.25rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
 }
 
 a{
@@ -51,8 +56,13 @@ ul{
     list-style: none;
 }
 
+.wrapper{
+    margin: 2rem 0;
+}
+
 .box{
     border: tomato 2px solid;
+    padding: 0 20px;
 }
 
 .logo{
@@ -173,7 +183,7 @@ header nav{
     margin-bottom: 2rem;
 }
 
-.pricing label{
+.pricing{
     font-size: .9rem;
 }
 
@@ -184,7 +194,7 @@ header nav{
 .pricing .col_30{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
-    height: 600px;
+    min-height: 700px;
 }
 
 .pricing .col_center{
