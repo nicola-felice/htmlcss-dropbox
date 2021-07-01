@@ -3,3 +3,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* _____ GLOBAL COLORS _____ */
+:root{
+    --main_blue: #0061ff;
+}
+/* _____ END GLOBAL COLORS _____ */
+
+
+
+/* _______ COMMON STYLES _______ */
+a{
+    text-decoration: none;
+    color: unset;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    width: 120px;
+}
+
+.btn{
+    background-color: var(--main_blue);
+    color: white;
+    padding: 5px 20px;
+}
+
+.col_50{
+    width: 50%;
+    display: inline-block;
+}
+
+.align_right{
+    text-align: right;
+}
+/* _______ END COMMON STYLES _______ */
+
+
+
+/* _______ HEADER _______ */
+header{
+    background-color: white;
+    padding: 1rem 2vw;
+    position: fixed;
+    width: 100%;
+}
+
+header *{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav a,
+header nav{
+    margin: 0 15px;
+}
+/* _______ END HEADER _______ */
