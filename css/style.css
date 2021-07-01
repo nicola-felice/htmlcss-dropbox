@@ -73,6 +73,12 @@ a{
 .big_btn{
     padding: 7px 28px;
 }
+.btn_white{
+    background-color: white;
+    border: 1px black solid;
+    color: black;
+    font-weight: 400;
+}
 /* _______ END BUTTONS  _______ */
 
 
@@ -268,5 +274,29 @@ header nav{
     color: var(--main_blue);
 }
 /* ------ END PRICING SECTION ------ */
+
+
+/* ------ CTA SECTION ------ */
+.call_to_action{
+    margin: 8rem 0;
+}
+
+.call_to_action .col_img{
+    width: 55%;
+}
+
+.call_to_action .col_text{
+    padding-top: 2rem;
+    padding-left: 3rem;
+
+    width: 45%;
+}
+
+.call_to_action p{
+    margin: 1.25rem 0;
+    margin-right: 10px;
+}
+/* ------ END CTA SECTION ------ */
+
 
 /* _______ END MAIN _______ */
