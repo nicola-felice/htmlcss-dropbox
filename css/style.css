@@ -258,6 +258,12 @@ header nav{
     text-align: right;
 }
 
+.pricing p.features_text{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+
 .pricing .wrapper ul i{
     color: var(--main_blue);
 }
