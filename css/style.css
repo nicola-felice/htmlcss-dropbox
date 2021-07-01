@@ -47,7 +47,29 @@ a{
 .small_p{
     font-size: .9rem;
 }
+
+
+.blue_link{
+    color: var(--main_blue);
+    text-decoration: underline;
+}
 /* _______ END TYPOGRAPHY  _______ */
+
+
+
+/* _______ BUTTONS  _______ */
+.btn{
+    background-color: var(--main_blue);
+    color: white;
+    padding: 7px 20px;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+}
+.big_btn{
+    padding: 7px 28px;
+}
+/* _______ END BUTTONS  _______ */
 
 
 
@@ -69,26 +91,10 @@ ul{
     width: 120px;
 }
 
-.blue_link{
-    color: var(--main_blue);
-    text-decoration: underline;
-}
-
 img{
     max-width: 100%;
 }
 
-.btn{
-    background-color: var(--main_blue);
-    color: white;
-    padding: 7px 20px;
-    display: inline-block;
-    font-weight: 600;
-    text-align: center;
-}
-.big_btn{
-    padding: 7px 28px;
-}
 .witdh_100{
     width: 100%;
 }
@@ -187,7 +193,7 @@ header nav{
 /* ------ END HERO SECTION ------ */
 
 
-/* ------ PRICING ------ */
+/* ------ PRICING SECTION ------ */
 .pricing{
     margin-top: 200px;
     font-size: .9rem;
@@ -242,7 +248,7 @@ header nav{
 .pricing .wrapper ul i{
     color: var(--main_blue);
 }
-/* ------ END PRICING ------ */
+/* ------ END PRICING SECTION ------ */
 
 /* _______ END MAIN _______ */
 
