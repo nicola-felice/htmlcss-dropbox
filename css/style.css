@@ -4,19 +4,32 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* _____ GLOBAL COLORS _____ */
 :root{
     --main_blue: #0061ff;
+    --light_nlue_bg: #b4d0e7;
 }
 /* _____ END GLOBAL COLORS _____ */
 
 
 
 /* _______ COMMON STYLES _______ */
+h1{
+    font-size: 4.25rem;
+
+}
+
 a{
     text-decoration: none;
     color: unset;
@@ -31,10 +44,19 @@ ul{
     width: 120px;
 }
 
+img{
+    max-width: 100%;
+}
+
 .btn{
     background-color: var(--main_blue);
     color: white;
     padding: 5px 20px;
+    display: inline-block;
+    font-weight: 600;
+}
+.big_btn{
+    padding: 7px 20px;
 }
 
 .col_50{
@@ -45,6 +67,20 @@ ul{
 .align_right{
     text-align: right;
 }
+
+.container_big{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.float{
+    float: left;
+}
+
+.small_p{
+    font-size: .9rem;
+}
 /* _______ END COMMON STYLES _______ */
 
 
@@ -54,6 +90,8 @@ header{
     background-color: white;
     padding: 1rem 2vw;
     position: fixed;
+    z-index: 9999;
+    top: 0;
     width: 100%;
 }
 
@@ -67,3 +105,49 @@ header nav{
     margin: 0 15px;
 }
 /* _______ END HEADER _______ */
+
+
+
+/* _______ MAIN _______ */
+
+/* ------ HERO SECTION ------ */
+.hero{
+    background-color: var(--light_nlue_bg);
+}
+
+.hero .container_big{
+    padding-top: 50px;
+    position: relative;
+    bottom: -90px;
+    min-height: 100vh;
+}
+
+.hero .row{
+    margin-top: 1.75rem;
+}
+
+.hero .col_left{
+    width: 30%;
+}
+
+.hero .col_right{
+    width: 70%;
+}
+
+.hero .col_left .btn{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.hero .col_left i{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+/* ------ END HERO SECTION ------ */
+
+/* _______ END MAIN _______ */
+
+
+.space{
+    height: 150vh;
+}
