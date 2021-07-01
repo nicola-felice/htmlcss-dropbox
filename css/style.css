@@ -58,15 +58,20 @@ ul{
 
 .wrapper{
     margin: 2rem 0;
+    padding: 0 20px;
 }
 
 .box{
-    border: tomato 2px solid;
-    padding: 0 20px;
+    border: lightgrey 1px solid;
 }
 
 .logo{
     width: 120px;
+}
+
+.blue_link{
+    color: var(--main_blue);
+    text-decoration: underline;
 }
 
 img{
@@ -76,12 +81,20 @@ img{
 .btn{
     background-color: var(--main_blue);
     color: white;
-    padding: 5px 20px;
+    padding: 7px 20px;
     display: inline-block;
     font-weight: 600;
+    text-align: center;
 }
 .big_btn{
-    padding: 7px 20px;
+    padding: 7px 28px;
+}
+.witdh_100{
+    width: 100%;
+}
+
+.padding_top15{
+    padding-top: 15px;
 }
 
 .col_50{
@@ -177,29 +190,57 @@ header nav{
 /* ------ PRICING ------ */
 .pricing{
     margin-top: 200px;
+    font-size: .9rem;
 }
-
 .pricing h2{
     margin-bottom: 2rem;
 }
-
-.pricing{
-    font-size: .9rem;
-}
-
 #f_annuale{
     margin-left: 20px;
+}
+
+.pricing .offer_category{
+    padding: .5rem;
+    border-bottom: 1px lightgrey solid;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pricing .price{
+    font-weight: 600;
 }
 
 .pricing .col_30{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
-    min-height: 700px;
+    min-height: 850px;
 }
-
 .pricing .col_center{
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.pricing .wrapper *{
+    margin: .45rem 0;
+}
+
+.pricing hr{
+    width: 60px;
+    background-color: lightgrey;
+    height: 1px;
+    border: transparent;
+}
+
+.pricing .col_text{
+    width: 70%;
+}
+.pricing .col_button{
+    width: 30%;
+    text-align: right;
+}
+
+.pricing .wrapper ul i{
+    color: var(--main_blue);
 }
 /* ------ END PRICING ------ */
 
