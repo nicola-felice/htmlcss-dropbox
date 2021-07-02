@@ -93,10 +93,6 @@ ul{
     padding: 0 20px;
 }
 
-.box{
-    border: lightgrey 1px solid;
-}
-
 hr{
     background-color: lightgrey;
     height: 1px;
@@ -251,6 +247,10 @@ header nav{
     min-height: 850px;
 }
 
+.pricing .box{
+    border: lightgrey 1px solid;
+}
+
 .pricing .wrapper *{
     margin: .45rem 0;
 }
@@ -316,6 +316,27 @@ header nav{
     margin: 2rem 0 4rem 0;
 }
 /* ------ END DROPBOX BUSINESS SECTION ------ */
+
+
+/* ------ TESTIMONIALS SECTION ------ */
+.testimonials .col_squares{
+    width: 30vw;
+    height: 30vw;
+    background-color: blue;
+}
+
+.testimonials .col_center{
+    width: calc(100% - 60vw);
+    background-color: brown;
+    height: 30vw;
+}
+
+.testimonials .box{
+    border: chartreuse 2px solid;
+    height: 15vw;
+}
+/* ------ END TESTIMONIALS SECTION ------ */
+
 
 
 /* _______ END MAIN _______ */
