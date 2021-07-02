@@ -404,4 +404,34 @@ header nav{
 /* ------ END CTA DB BUSINESS SECTION ------ */
 
 
+/* ------ FAQ SECTION ------ */
+.faq_section{
+    margin: 7rem 0;
+}
+
+.faq_section h4,
+.faq_section li{
+    padding: 2rem 0;
+    border-bottom: 1px lightgrey solid;
+}
+
+.faq_section p{
+    display: inline-block;
+    width: 80%;
+}
+
+.icon_wrapper{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+}
+
+.faq_section i{
+    padding-right: 2rem;
+    font-size: 1.25rem;
+    color: rgb(110, 110, 110);
+}
+/* ------ END FAQ SECTION ------ */
+
+
 /* _______ END MAIN _______ */
