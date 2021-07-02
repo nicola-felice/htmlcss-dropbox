@@ -79,6 +79,11 @@ a{
     color: black;
     font-weight: 400;
 }
+.btn:hover{
+    background-color: #5797ff;
+    color: white;
+    border: transparent;
+}
 /* _______ END BUTTONS  _______ */
 
 
