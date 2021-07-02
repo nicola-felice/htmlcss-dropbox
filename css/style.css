@@ -46,6 +46,7 @@ a{
     text-decoration: none;
     color: unset;
     text-transform: capitalize;
+    display: inline-block;
 }
 
 .small_p{
@@ -66,7 +67,6 @@ a{
     background-color: var(--main_blue);
     color: white;
     padding: 7px 20px;
-    display: inline-block;
     font-weight: 600;
     text-align: center;
 }
@@ -117,10 +117,6 @@ img{
     width: 100%;
 }
 
-.padding_top15{
-    padding-top: 15px;
-}
-
 .col_50{
     width: 50%;
     display: inline-block;
@@ -155,6 +151,24 @@ img{
     float: left;
 }
 /* _______ END COMMON STYLES _______ */
+
+
+
+
+/* _______ COMMON PADDINGS _______ */
+.padding_top15{
+    padding-top: 15px;
+}
+
+.padding_2rem_top_bottom{
+    padding: 2rem 0;
+}
+
+.padding_3rem{
+    padding: 3rem;
+}
+/* _______ END COMMON PADDINGS _______ */
+
 
 
 
@@ -294,9 +308,7 @@ header nav{
 }
 
 .call_to_action_partner .col_text{
-    padding-top: 2rem;
-    padding-left: 3rem;
-
+    padding-right: 0;
     width: 45%;
 }
 
@@ -331,7 +343,7 @@ header nav{
 }
 
 .testimonials{
-    padding: 5rem 0 0 0;
+    padding-top: 5rem;
 }
 
 .testimonials img{
@@ -343,11 +355,6 @@ header nav{
     background-color: darkgray;
 }
 
-.testimonials .link_padding{
-    padding: 2rem 0;
-    display: inline-block;
-}
-
 .testimonials .col_squares{
     width: 30vw;
     height: 30vw;
@@ -357,9 +364,6 @@ header nav{
     width: calc(100% - 60vw);
     background-color: #f5f5f5;
     height: 30vw;
-
-    padding-top: 3rem;
-    padding-left: 3rem;
 }
 
 .testimonials .box{
@@ -473,17 +477,16 @@ footer li{
     margin-bottom: .25rem;
 }
 
-
-footer .copyright *{
-    vertical-align: middle;
-}
-
-footer .copyright div{
-    padding: 2rem 0;
+footer .lenguage_wrapper{
     color: #666666;
 }
 
 footer .copyright hr{
     width: 100px;
+}
+
+footer .icon_arrow_leanguage_choice{
+    vertical-align: -moz-middle-with-baseline;
+    vertical-align: -webkit-baseline-middle;
 }
 /* _______ END FOOTER _______ */
