@@ -127,6 +127,9 @@ img{
     margin-left: 40px;
     margin-right: 40px;
 }
+.col_20{
+    width: 20%;
+}
 
 .align_right{
     text-align: right;
@@ -435,3 +438,47 @@ header nav{
 
 
 /* _______ END MAIN _______ */
+
+
+
+
+/* _______ FOOTER _______ */
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .navigation{
+    padding: 5rem 0;
+}
+
+footer a{
+    font-size: .9rem;
+}
+
+footer .col_20{
+    padding-left: .5rem;
+}
+
+footer h5{
+    margin-bottom: 1rem;
+}
+
+footer li{
+    margin-bottom: .25rem;
+}
+
+
+footer .copyright *{
+    vertical-align: middle;
+}
+
+footer .copyright div{
+    padding: 2rem 0;
+    color: #666666;
+}
+
+footer .copyright hr{
+    width: 100px;
+}
+/* _______ END FOOTER _______ */
