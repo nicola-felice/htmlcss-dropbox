@@ -97,6 +97,7 @@ hr{
     background-color: lightgrey;
     height: 1px;
     border: transparent;
+    width: 60px;
 }
 
 .logo{
@@ -255,10 +256,6 @@ header nav{
     margin: .45rem 0;
 }
 
-.pricing hr{
-    width: 60px;
-}
-
 .pricing .col_text{
     width: 70%;
 }
@@ -319,21 +316,74 @@ header nav{
 
 
 /* ------ TESTIMONIALS SECTION ------ */
+.testimonials hr,
+.testimonials p{
+    margin: 3rem 0;
+    max-width: 85%;
+}
+
+.testimonials{
+    padding: 5rem 0;
+}
+
+.testimonials img{
+    width: 120px;
+    vertical-align: middle;
+}
+
+.testimonials hr{
+    background-color: darkgray;
+}
+
+.testimonials .link_padding{
+    padding: 2rem 0;
+    display: inline-block;
+}
+
 .testimonials .col_squares{
     width: 30vw;
     height: 30vw;
-    background-color: blue;
 }
 
 .testimonials .col_center{
     width: calc(100% - 60vw);
-    background-color: brown;
+    background-color: #f5f5f5;
     height: 30vw;
+
+    padding-top: 3rem;
+    padding-left: 3rem;
 }
 
 .testimonials .box{
-    border: chartreuse 2px solid;
     height: 15vw;
+
+    text-align: center;
+    line-height: 15vw;
+}
+
+#box_logo_1{
+    background-color: #a2d39b;
+}
+#box_logo_2{
+    background-color: #0093ce;
+}
+#box_logo_3{
+    background-color: #61082b;
+}
+#box_logo_4{
+    background-color: #ff1c1c;
+}
+#box_logo_5{
+    background-color: #d5001f;
+}
+#box_logo_6{
+    background-color: #0d2481;
+}
+#box_logo_7{
+    background-color: #b4d0e7;
+}
+#box_logo_8{
+    background-color: #ffd830;
 }
 /* ------ END TESTIMONIALS SECTION ------ */
 
