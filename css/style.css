@@ -276,27 +276,27 @@ header nav{
 /* ------ END PRICING SECTION ------ */
 
 
-/* ------ CTA SECTION ------ */
-.call_to_action{
+/* ------ CTA PARTNER SECTION ------ */
+.call_to_action_partner{
     margin: 8rem 0;
 }
 
-.call_to_action .col_img{
+.call_to_action_partner .col_img{
     width: 55%;
 }
 
-.call_to_action .col_text{
+.call_to_action_partner .col_text{
     padding-top: 2rem;
     padding-left: 3rem;
 
     width: 45%;
 }
 
-.call_to_action p{
+.call_to_action_partner p{
     margin: 1.25rem 0;
     margin-right: 10px;
 }
-/* ------ END CTA SECTION ------ */
+/* ------ END CTA PARTNER SECTION ------ */
 
 
 /* ------ DROPBOX BUSINESS SECTION ------ */
@@ -310,7 +310,7 @@ header nav{
 }
 
 .dropbox_business .row{
-    margin: 2rem 0 4rem 0;
+    margin: 3rem 0 4rem 0;
 }
 /* ------ END DROPBOX BUSINESS SECTION ------ */
 
@@ -323,7 +323,7 @@ header nav{
 }
 
 .testimonials{
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
 }
 
 .testimonials img{
@@ -363,6 +363,7 @@ header nav{
 
 #box_logo_1{
     background-color: #a2d39b;
+    border: 10px #d0e9cd solid;
 }
 #box_logo_2{
     background-color: #0093ce;
@@ -387,6 +388,20 @@ header nav{
 }
 /* ------ END TESTIMONIALS SECTION ------ */
 
+
+/* ------ CTA DB BUSINESS SECTION ------ */
+.CTA_dropbox_business{
+    background-color: var(--light_nlue_bg);
+    color: #61082b;
+    padding: 8rem 0;
+}
+
+.CTA_dropbox_business .btn{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: transparent;
+}
+/* ------ END CTA DB BUSINESS SECTION ------ */
 
 
 /* _______ END MAIN _______ */
