@@ -93,6 +93,10 @@ ul{
     list-style: none;
 }
 
+nav a:hover{
+    text-decoration: underline;
+}
+
 .wrapper{
     margin: 2rem 0;
     padding: 0 20px;
