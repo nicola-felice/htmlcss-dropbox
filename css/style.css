@@ -370,7 +370,8 @@ header nav{
 .testimonials .col_center{
     width: calc(100% - 60vw);
     background-color: #f5f5f5;
-    min-height: 30vw;
+    height: 30vw;
+    overflow: auto;
 }
 
 .testimonials .box{
