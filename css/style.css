@@ -379,11 +379,15 @@ header nav{
 
     text-align: center;
     line-height: 15vw;
+    border: 9px rgba(255, 255, 255, 0) solid;
+
+}
+.testimonials .box:hover{
+    border: 9px rgba(255, 255, 255, 0.50) solid;
 }
 
 #box_logo_1{
     background-color: #a2d39b;
-    border: 10px #d0e9cd solid;
 }
 #box_logo_2{
     background-color: #0093ce;
