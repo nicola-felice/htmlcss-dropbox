@@ -210,7 +210,6 @@ header nav{
     padding-top: 50px;
     position: relative;
     bottom: -90px;
-    min-height: 100vh;
 }
 
 .hero .row{
@@ -438,6 +437,9 @@ header nav{
     padding: 2rem 0;
     border-bottom: 1px lightgrey solid;
 }
+.faq_section li > p{
+    font-weight: 700;
+}
 
 .faq_section p{
     display: inline-block;
@@ -454,6 +456,24 @@ header nav{
     padding-right: 2rem;
     font-size: 1.25rem;
     color: rgb(110, 110, 110);
+}
+
+/* drop down hover animation */
+.fa-flip-vertical,
+.drop_down{
+    display: none;
+}
+.drop_down_activation:hover .arrow_down{
+    display: none;
+}
+.drop_down_activation:hover .fa-flip-vertical,
+.drop_down_activation:hover .drop_down{
+    display: inline-block;
+}
+
+.drop_down{
+    padding-top: 1rem;
+    color: rgb(77, 77, 77);
 }
 /* ------ END FAQ SECTION ------ */
 
