@@ -66,12 +66,12 @@ a{
 .btn{
     background-color: var(--main_blue);
     color: white;
-    padding: 7px 20px;
+    padding: .45rem 1.25rem;
     font-weight: 600;
     text-align: center;
 }
 .big_btn{
-    padding: 7px 28px;
+    padding: .45rem 1.75rem;
 }
 .btn_white{
     background-color: white;
@@ -99,18 +99,18 @@ nav a:hover{
 
 .wrapper{
     margin: 2rem 0;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 hr{
     background-color: lightgrey;
     height: 1px;
     border: transparent;
-    width: 60px;
+    width: 3.75rem;
 }
 
 .logo{
-    width: 120px;
+    width: 7.5rem;
 }
 
 img{
@@ -126,11 +126,11 @@ img{
     display: inline-block;
 }
 .col_30{
-    width: calc((100% - 80px) / 3);
+    width: calc((100% - 5rem) / 3);
 }
 .col_30_center{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 .col_20{
     width: 20%;
@@ -159,23 +159,6 @@ img{
 
 
 
-/* _______ COMMON PADDINGS _______ */
-.padding_top15{
-    padding-top: 15px;
-}
-
-.padding_2rem_top_bottom{
-    padding: 2rem 0;
-}
-
-.padding_3rem{
-    padding: 3rem;
-}
-/* _______ END COMMON PADDINGS _______ */
-
-
-
-
 /* _______ HEADER _______ */
 header{
     background-color: white;
@@ -193,7 +176,7 @@ header *{
 
 header nav a,
 header nav{
-    margin: 0 15px;
+    margin: 0 1rem;
 }
 /* _______ END HEADER _______ */
 
@@ -207,7 +190,7 @@ header nav{
 }
 
 .hero .container_big{
-    padding-top: 50px;
+    padding-top: 3.1rem;
     position: relative;
     bottom: -90px;
 }
@@ -245,15 +228,15 @@ header nav{
 
 /* ------ PRICING SECTION ------ */
 .pricing{
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 6.25rem;
+    padding-top: 6.25rem;
     font-size: .9rem;
 }
 .pricing h2{
     margin-bottom: 2rem;
 }
 #f_annuale{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .pricing .offer_category{
@@ -270,7 +253,7 @@ header nav{
 .pricing .col_30{
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
-    min-height: 850px;
+    min-height: 55rem;
 }
 
 .pricing .box{
@@ -283,6 +266,9 @@ header nav{
 
 .pricing .col_text{
     width: 70%;
+}
+.pricing .col_text p{
+    padding-top: 1rem;
 }
 .pricing .col_button{
     width: 30%;
@@ -313,11 +299,12 @@ header nav{
 .call_to_action_partner .col_text{
     padding-right: 0;
     width: 45%;
+    padding: 3rem;
 }
 
 .call_to_action_partner p{
     margin: 1.25rem 0;
-    margin-right: 10px;
+    margin-right: .25rem;
 }
 /* ------ END CTA PARTNER SECTION ------ */
 
@@ -330,7 +317,7 @@ header nav{
 
 .dropbox_business p{
     font-size: .8rem;
-    line-height: 20px;
+    line-height: 1.25rem;
     text-align: center;
 }
 
@@ -347,12 +334,16 @@ header nav{
     max-width: 85%;
 }
 
+ .testimonials .container_small a{
+    padding: 2rem 0;
+ }
+
 .testimonials{
     padding-top: 5rem;
 }
 
 .testimonials img{
-    width: 120px;
+    width: 7.5rem;
     max-width: 70%;
     vertical-align: middle;
 }
@@ -371,6 +362,7 @@ header nav{
     background-color: #f5f5f5;
     height: 30vw;
     overflow: auto;
+    padding: 3rem;
 }
 
 .testimonials .box{
@@ -511,10 +503,11 @@ footer li{
 
 footer .lenguage_wrapper{
     color: #666666;
+    padding: 2rem 0;
 }
 
-footer .copyright hr{
-    width: 100px;
+.copyright hr{
+    width: 6.5rem;
 }
 
 footer .icon_arrow_leanguage_choice{
